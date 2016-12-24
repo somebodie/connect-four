@@ -29,8 +29,17 @@ yellowPlayer {
     border: 15px solid #999;
 }*/
 
-.board {
+canvas {
     margin: auto;
     align: center;
-    background-color: #2B91A8;
+}
+
+div {
+  flex-flow: column;
+  columns: ;
+}
+
+span {
+  flex-flow: row;
+  rows: ;
 }
