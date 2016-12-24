@@ -1,5 +1,10 @@
 h1 {
-    background-color:  ;
+    border-style: dotted;
+    font-family: cubano, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 80px;
+    margin: auto;
 }
 
 redPlayer {
@@ -9,11 +14,18 @@ redPlayer {
     border-radius: 40px;
     border: 15px solid #999;
 }
+
+
 /*used dash to determine color shapes for game pieces*/
+
 yellowPlayer {
     height: 40px;
     width: 40px;
     background: #ccc;
     border-radius: 40px;
     border: 15px solid #999;
+}
+
+.board {
+  margin: auto;
 }
