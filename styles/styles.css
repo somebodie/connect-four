@@ -1,3 +1,19 @@
-#board {
-  color: ;
+h1 {
+    background-color:  ;
+}
+
+redPlayer {
+    height: 40px;
+    width: 40px;
+    background: #ccc;
+    border-radius: 40px;
+    border: 15px solid #999;
+}
+/*used dash to determine color shapes for game pieces*/
+yellowPlayer {
+    height: 40px;
+    width: 40px;
+    background: #ccc;
+    border-radius: 40px;
+    border: 15px solid #999;
 }
