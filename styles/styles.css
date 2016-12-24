@@ -10,7 +10,20 @@ h1 {
     margin: 45px;
 }
 
+canvas {
+    margin: auto;
+    align: center;
+}
 
+div {
+  flex-flow: column;
+  columns: ;
+}
+
+span {
+  flex-flow: row;
+  rows: ;
+}
 /*used dash to determine color shapes for game pieces
 
 redPlayer {
@@ -28,18 +41,3 @@ yellowPlayer {
     border-radius: 40px;
     border: 15px solid #999;
 }*/
-
-canvas {
-    margin: auto;
-    align: center;
-}
-
-div {
-  flex-flow: column;
-  columns: ;
-}
-
-span {
-  flex-flow: row;
-  rows: ;
-}
