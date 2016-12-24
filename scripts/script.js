@@ -26,3 +26,7 @@ function AI(event) {
   easy
   hard
 }
+
+function whenMove(event) {
+  // http://www.w3schools.com/TAgs/canvas_fill.asp
+}

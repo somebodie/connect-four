@@ -11,8 +11,7 @@ h1 {
 }
 
 canvas {
-    margin: auto;
-    align: center;
+  background-color: #0018B5;
 }
 
 div {
@@ -23,8 +22,12 @@ div {
 span {
   flex-flow: row;
   rows: ;
+  /*border-radius: 40px;
+  border: 15px solid #999;*/
 }
 /*used dash to determine color shapes for game pieces
+
+radial-gradient(circle, white 15%, transparent 40%), #cc5;
 
 redPlayer {
     height: 40px;
