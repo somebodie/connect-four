@@ -12,6 +12,7 @@ h1 {
 
 canvas {
   background-color: #0018B5;
+  z-index: -1;
 }
 
 div {
