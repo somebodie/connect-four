@@ -11,19 +11,19 @@ h1 {
 }
 
 canvas {
+  display: flex;
   background-color: #0018B5;
-  position: ;
   z-index: -1;
 }
 
 div {
   flex-flow: column;
-  columns: ;
+  columns:
 }
 
 span {
   flex-flow: row;
-  rows: ;
+  rows:
   /*border-radius: 40px;
   border: 15px solid #999;*/
 }
