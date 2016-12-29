@@ -17,15 +17,21 @@ canvas {
 }
 
 div {
-  flex-flow: column;
-  columns:
+  /*flex-flow: column;*/
+  flex-direction: row;;
+  border-radius: ;
+  rows:;
+  height: 50px;
+  width: 50px:auto;
 }
 
 span {
-  flex-flow: row;
-  rows:
-  /*border-radius: 40px;
-  border: 15px solid #999;*/
+  flex-direction: column;
+  border-radius: 40px;
+  columns:;
+  height: 50px;
+  width: 50px:auto;
+  border: 15px solid #999;
 }
 /*used dash to determine color shapes for game pieces
 
