@@ -2,11 +2,15 @@ $(document).ready(function() {
   console.log( 'ready!');
 })
 
+var playerOne = [];
+var playerTwo = [];
+var [][] board = { };
 function onStart(event) {
-
+// game piece loads
 }
 
 function makeMove(event) {
+// player picks column and it allows for player to make move in bottomw row
 
 }
 
