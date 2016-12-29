@@ -45,3 +45,5 @@ function onClick() {
 }
 // source progress bar sample to make piece move
 // gamePiece.style.postion.top (or bottom and negative)+(howmanyitneeds to fall in place)
+
+after player makes move toggleclass move to other player
