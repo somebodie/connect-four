@@ -17,23 +17,26 @@ canvas {
 }
 
 div {
-  /*flex-flow: column;*/
-  flex-direction: row;;
+  /* IDEA: flex-flow: column; */
+  /*display: inline-flex;
+  flex-direction: row;
+  rows:;*/
   border-radius: ;
-  rows:;
   height: 50px;
   width: 50px:auto;
 }
 
 span {
+  /*display: inline-flex;
   flex-direction: column;
+  columns:;*/
   border-radius: 40px;
-  columns:;
   height: 50px;
   width: 50px:auto;
   border: 15px solid #999;
 }
-/*used dash to determine color shapes for game pieces
+
+/* IDEA: used dash to determine color shapes for game pieces
 
 radial-gradient(circle, white 15%, transparent 40%), #cc5;
 
