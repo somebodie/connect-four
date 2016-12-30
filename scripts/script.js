@@ -5,6 +5,7 @@ $(document).ready(function() {
 var playerOne = [];
 var playerTwo = [];
 var [][] board = { };
+var activePlayer = 0
 function onStart(event) {
 // game piece loads
 }
@@ -51,3 +52,7 @@ function onClick() {
 // gamePiece.style.postion.top (or bottom and negative)+(howmanyitneeds to fall in place)
 
 after player makes move toggleclass move to other player
+
+// IDEA: swithcing players toogle class function
+
+// IDEA: $('.div this').html(makeMove[activePlayer]);
