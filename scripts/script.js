@@ -11,14 +11,18 @@ $(document).ready(function() {
 
 var startGame =
   $( ".start" ).click(function() {
-    console.log("starting!");
-    // message can be placed that says log
+// gamePiece shows red on startGame
     $('#gamePiece').addClass('redPlayer');
+    console.log("starting!");
   });
 
-var selections =
+
+
+// var selections = $('level').val()
+
+// var diffucutlty =
   // when player clicks makes a selection button diffucutlty changes
-//   switch($('level')) {
+//   switch(selects) {
 //     case pvp:
 //         alternatePlayer;
 //         break;
