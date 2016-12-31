@@ -2,99 +2,23 @@ $(document).ready(function() {
     console.log('ready!');
 })
 
-var redPlayer = [];
-// [21 spaces]
-var blackPlayer = [];
-// [21 spaces]
+// var selectLevel = function(value) {
+//   // to hold options for selections and paramaters
+//   pvp:
+//   easy:
+//   hard:
+// }
 
-// IDEA: var [][] board = { };
+var startGame =
+  $( ".start" ).click(function() {
+    console.log("starting!");
+    // $('.gamePiece'). ('.redPlayer');
+  });
+  // when player clicks start button red piece shows up
+  // IDEA: maybe in advance allow to pick color
 
-var resetGame = function() {
+// var alternatePlayer =
+//     $('.redplayer').toggleClass('.yellowPlayer');
 
-}
-
-var gameOver = function() {
-
-}
-
-var startGame = function() {
-    // IDEA: $('startButton').hide() new game and rest.show() rest button
-}
-
-var onStart = function() {
-// show game piece and allow player to make move
-}
-
-var onClick = function() {
-// coinDrop into column @keyframes
-}
-
-var coinDrop = function() {
-        // manipulate css to drop piece .style
-        // IDEA:
-        // drawProgressBars: function(timerValue){
-        // //// MVP
-        // var timeElapsed = 100 - timerValue;
-        // document.getElementsByClassName('progress-bar')[0].style.width = timeElapsed + '%';
-        // //// REACH
-        // // var progress = 100 - timerValue;
-        // // var bars = document.getElementsByClassName('progress-bar');
-        // // for (var i = 0; i < bars.length; i++) {
-        // //   bars[i].style.width = progress + '%';
-        // // }
-    }
-    // source progress bar sample to make piece move
-    // gamePiece.style.postion.top (or bottom and negative) (howmanyitneeds to fall in place)
-var currentPlayer = function(event) {
-
-}
-
-var takesTheBoard = function(event) {
-    // alternate players .toggleclass
-}
-
-var isValidMove = function(event) {
-    // IDEA: case switch //   case expression:
-    //
-    //     break;
-    // IDEA: reads rows to stop moves .hasClass
-}
-
-// if (gamOver) {}
-
-var onClickBoardSpace = function(event) {
-        if (isValidMove) {
-            return currentPlayer.takesTheBoard
-        }
-    }
-    // IDEA: make move reads column or appends  .hasClass
-
-var makeMove = function() {
-    // IDEA: $('.div this').html(makeMove[activePlayer]);
-}
-
-var onClickNewGame = function(event) {
-    return resetGame
-}
-
-var winningMove = function(event) {
-
-}
-
-var playersWin = function() {
-
-}
-
-var victoryMessage = function() {
-    // atVictoryMessage (Player Wins!)
-    // alert (play again?)
-}
-
-// Possible AI
-var easy = function() {
-    //  - Random Math.random
-}
-
-var hard = function() {
-    //   - Tries to stop win;
-}
+// var pickColumn = function(event) {}
+// when a player picks a column piece drops and then alternatePlayer
