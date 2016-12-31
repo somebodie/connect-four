@@ -22,11 +22,11 @@ var startGame = function() {
 }
 
 var onStart = function() {
-
+// show game piece and allow player to make move
 }
 
 var onClick = function() {
-
+// coinDrop into column @keyframes
 }
 
 var coinDrop = function() {
