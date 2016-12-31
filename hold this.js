@@ -1,6 +1,4 @@
-$(document).ready(function() {
-    console.log('ready!');
-})
+
 
 var redPlayer = [];
 // [21 spaces]
@@ -98,3 +96,5 @@ var easy = function() {
 var hard = function() {
     //   - Tries to stop win;
 }
+
+slideDown()

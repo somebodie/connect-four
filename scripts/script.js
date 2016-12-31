@@ -16,11 +16,9 @@ var startGame =
   });
 
 var onStartGame = function(startGame) {
-    // $('.gamePiece'). ('.redPlayer');
-}
-
   // when player clicks start button red piece shows up
-  // IDEA: maybe in advance allow to pick color
+    $('.gamePiece').addCSS('.redPlayer');
+}     // IDEA: maybe in advance allow to pick color
 
 // var alternatePlayer =
 //     $('.redplayer').toggleClass('.yellowPlayer');
