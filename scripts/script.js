@@ -2,13 +2,6 @@ $(document).ready(function() {
     console.log('ready!');
 })
 
-// var selectLevel = function(value) {
-//   // to hold options for selections and paramaters
-//   pvp:
-//   easy:
-//   hard:
-// }
-
 var startGame =
   $( ".start" ).click(function() {
 // gamePiece shows red on startGame
@@ -16,11 +9,10 @@ var startGame =
     console.log("starting!");
   });
 
-
-
 // var selections = $('level').val()
 
-// var diffucutlty =
+// var selectLevel =
+// to hold options for selections and paramaters
   // when player clicks makes a selection button diffucutlty changes
 //   switch(selects) {
 //     case pvp:
@@ -38,13 +30,22 @@ var startGame =
       // IDEA: maybe in advance allow to pick color
   // });
 
-
 // var alternatePlayer =
-//     $('.redplayer').toggleClass('.yellowPlayer');
+//  // switch from redPlayer to yellowPlayer
+//  $(pickColumn).eventlistener(function(){
+//      $('redPlayer').toggleClass('redPlayer''yellowPlayer');
+//  });
 
-// var pickColumn = function(event) {}
-// slideDown()
+// var pickColumn =
+// $( "div.this" ).click(function() {
+//    slideDown()
+//    alternatePlayer;
 // when a player picks a column piece drops and then alternatePlayer
+
+
+
+
+
 
 // var makeMove = function() {
 //   $("column").click(function(){
