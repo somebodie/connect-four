@@ -92,7 +92,7 @@ var victoryMessage = function() {
 
 // Possible AI
 var easy = function() {
-    //  - Random
+    //  - Random Math.random
 }
 
 var hard = function() {
