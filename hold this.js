@@ -97,4 +97,6 @@ var hard = function() {
     //   - Tries to stop win;
 }
 
-slideDown()
+$("column").click(function(){
+    $("div:last").addClass("activePlayer");
+});
