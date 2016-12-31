@@ -2,6 +2,9 @@ h1 {
     text-align: center;
 }
 
+.start {
+
+}
 #gamePiece {
   height: 40px;
   width: 40px;
@@ -9,11 +12,7 @@ h1 {
   animation: picking;
 }
 
-.start {
-
-}
-
-.redplayer {
+.redPlayer {
   background: ##FF0000;
   border: 15px solid #E50000;
 }
@@ -22,9 +21,8 @@ h1 {
   background: #FFFC19;
   border: 15px solid #FFE300;
 }
-
 .board {
-  display:
+display:
 }
 
 .rows {
@@ -43,7 +41,6 @@ h1 {
 @@keyframes picking {
 
 }
-
 
 /* IDEA: used dash to determine color shapes for game pieces
 
