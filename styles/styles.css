@@ -2,13 +2,11 @@ h1 {
     text-align: center;
 }
 
-span {}
-
 .board {}
 
 .rows {}
 
-.column {}
+.columns {}
 
 
 /* IDEA: used dash to determine color shapes for game pieces
