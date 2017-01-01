@@ -32,8 +32,8 @@ var startGame =
 // var selections = // moves piece left to right
 
 var currentPlayer = {
-                'r' : 'redPlayer',
-                'y': 'yellowPlayer'};
+                r : 'redPlayer',
+                y : 'yellowPlayer'};
 
 var alternatePlayer =
  // switch from redPlayer to yellowPlayer
@@ -44,13 +44,15 @@ var alternatePlayer =
 // var makeMove =
 
 // var pickColumn =
-// // this allows the player to make move
+// // this allows the player to select space
 //   $("column").click(function(){
-//       $("div:last").addClass("currentPlayer['r']");
+//       $("div:last").addClass("curr entPlayer['r']");
 // need to figure out how to switch index back and forth
+// .each(currentPlayer)
 //       alternatePlayer;
 //   });
-// }// when a player picks a column piece drops and then alternatePlayer
+
+// var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
 // var isValidMove =
 // if ($(pickColumn).hasClass('filled')) {
