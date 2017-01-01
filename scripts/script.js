@@ -38,14 +38,18 @@ var alternatePlayer =
      $('.redPlayer').toggleClass('yellowPlayer');
  });
 
+var makeMove =
+
 var pickColumn =
 // this allows the player to make move
   $("column").click(function(){
-      $("div:last").addClass("filled");
+      $("div:last").addClass("");
+
       alternatePlayer;
   });
 }// when a player picks a column piece drops and then alternatePlayer
 
-// IDEA: var isValidMove = if ($(pickColumn).hasClass('filled')) {
-// if there is a space filled
-// div:last-1
+var isValidMove =
+if ($(pickColumn).hasClass('filled')) {
+if there is a space filled
+div:last-1 }

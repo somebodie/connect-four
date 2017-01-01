@@ -60,13 +60,6 @@ var isValidMove = function(event) {
 
 // if (gamOver) {}
 
-var onClickBoardSpace = function(event) {
-        if (isValidMove) {
-            return currentPlayer.takesTheBoard
-        }
-    }
-    // IDEA: make move reads column or appends  .hasClass
-
 var makeMove = function() {
     // IDEA: $('.div this').html(makeMove[activePlayer]);
 }
