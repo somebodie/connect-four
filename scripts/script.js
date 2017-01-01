@@ -2,6 +2,10 @@ $(document).ready(function() {
     console.log('ready!');
 })
 
+var currentPlayer = {
+                r : 'redPlayer',
+                y : 'yellowPlayer'};
+
 var startGame =
   $( ".start" ).click(function() {
 // gamePiece shows red on startGame
@@ -30,10 +34,6 @@ var startGame =
 
 
 // var selections = // moves piece left to right
-
-var currentPlayer = {
-                r : 'redPlayer',
-                y : 'yellowPlayer'};
 
 var alternatePlayer =
  // switch from redPlayer to yellowPlayer
