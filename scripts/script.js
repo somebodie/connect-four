@@ -41,26 +41,11 @@ var alternatePlayer =
 var pickColumn =
 // this allows the player to make move
   $("column").click(function(){
-      $("div:last").addClass("activePlayer");
+      $("div:last").addClass("filled");
       alternatePlayer;
   });
-}
-// when a player picks a column piece drops and then alternatePlayer
+}// when a player picks a column piece drops and then alternatePlayer
 
-
-
-//
-// var isValidMove =
-//   // if there is a next prompt
-//   if (currentPrompt < prompts.length) {
-// 	//put current prompt in all html elements with class
-// 	$('.prompt').html(prompts[currentPrompt]);
-// 	// move the next prompt into variable currentPrompt
-// 	currentPrompt = currentPrompt + 1;
-//   }
-//   // or else if we're at the end of the array
-//   else {
-//     // put a new message into the html
-//     $('.prompt').html("that's all for now!");
-//     }
-// }
+// IDEA: var isValidMove = if ($(pickColumn).hasClass('filled')) {
+// if there is a space filled
+// div:last-1

@@ -8,11 +8,6 @@
 //
 // }
 //
-// validMove(event){
-//   case expression:
-//
-//     break;
-// }
 //
 // winningMove(){
 //
@@ -21,10 +16,7 @@
 // atVictoryMessage (Player Wins!)
 // alert (play again?)
 //
-// AI(easy : hard) {
-//   Easy - Random
-//   Hard - Tries to stop win;
-// }
+
 //
 // column (makes move)
 // row (makes validMove)
