@@ -38,6 +38,7 @@ var startGame =
 // some code that listens for column selected;
 // var makeMove = $('column').click(function() {
 //   console.log("that's your move?");
+// appendClass to currentPlayer
 // });
 //
 
@@ -77,16 +78,6 @@ var startGame =
 // // if ($(pickColumn).hasClass('filled')) {
 // // if there is a space filled
 // // div:last-1 }
-// // or
-// // var filled = make sure row cannot be filled
-// // or
-// // var isValidMove = function(event) {
-// //     // IDEA: case switch //   case expression:
-// //     //
-// //     //     break;
-// //     // IDEA: reads rows to stop moves .hasClass
-// // }
-//
 
 // var endGame =
 //
