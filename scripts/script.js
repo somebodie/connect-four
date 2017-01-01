@@ -6,17 +6,17 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
-// var selectLevel = $('level').val()
 
-//  var diffucutlty =
+//  var selectedLevel;
+// var diffucutlty = $('level').val();
 // when player clicks makes a selection button diffucutlty changes
-//   switch($(val()) {
+//   switch(diffucutlty) {
 //     case pvp:
-//         $('#gamePiece').addClass('redPlayer');
+//         selectedLevel = $('#gamePiece').addClass('redPlayer');
 //        alternatePlayer;
 //         break;
 //     case easy:
-//        $('column')Math.Random(div:column);
+//        selectedLevel = $('column')Math.Random(div:column);
 //         break;
 //     case hard:
 //         code block
@@ -34,52 +34,68 @@ var startGame =
     console.log("starting!");
   });
 
+// Should read entire board to allow move and move up div
+// some code that listens for column selected;
+// var makeMove = $('column').click(function() {
+//   console.log("that's your move?");
+// });
+//
 
 // var coinMove = // moves piece left to right
+//
 
-var pickColumn =
-  switch ($('column').click() {
-  case $('#gamePiece').hasClass('redPlayer'):
-    $('div:last').addClass('redPlayer')
-    break;
-  case $('#gamePiece').hasClass('yellowPlayer'):
-      $('div:last').addClass('yellowPlayer')
-    break;
-  default: alert('did you pick something on the board?');
-}
 
-var alternatePlayer =
- // switch from redPlayer to yellowPlayer
- $('pickColumn').click(function(){
-     $('.redPlayer').toggleClass('yellowPlayer');
- });
-
-// var switch = $('pickColumn').alternatePlayer
-
-// var drop = animation }// when a player picks a column piece drops and then alternatePlayer
-
-// var isValidMove =
-// if ($(pickColumn).hasClass('filled')) {
-// if there is a space filled
-// div:last-1 }
-// or
-// var filled = make sure row cannot be filled 
-// or
-// var isValidMove = function(event) {
-//     // IDEA: case switch //   case expression:
-//     //
-//     //     break;
-//     // IDEA: reads rows to stop moves .hasClass
+//
+// var placeInColumn;
+//   switch (makeMove) {
+//   case $('#gamePiece').hasClass('redPlayer'):
+//     $('div:last').addClass('redPlayer')
+//     break;
+//   case $('#gamePiece').hasClass('yellowPlayer'):
+//       $('div:last').addClass('yellowPlayer')
+//     break;
+//   default: alert('did you pick something on the board?');
 // }
+//
 
-var endGame =
 
-var winningMove =
+// var alternatePlayer =
+//  // switch from redPlayer to yellowPlayer
+//  $('pickColumn').click(function(){
+//      $('.redPlayer').toggleClass('yellowPlayer');
+//  });
+//
 
-var gameOver =
 
-var playersWin =
+// // var switch = $('pickColumn').alternatePlayer
+//
 
-var victoryMessage =
-// atVictoryMessage (Player Wins!)
-// alert (play again?)
+// // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
+//
+
+// // var isValidMove =
+// // if ($(pickColumn).hasClass('filled')) {
+// // if there is a space filled
+// // div:last-1 }
+// // or
+// // var filled = make sure row cannot be filled
+// // or
+// // var isValidMove = function(event) {
+// //     // IDEA: case switch //   case expression:
+// //     //
+// //     //     break;
+// //     // IDEA: reads rows to stop moves .hasClass
+// // }
+//
+
+// var endGame =
+//
+// var winningMove =
+//
+// var gameOver =
+//
+// var playersWin =
+//
+// var victoryMessage =
+// // atVictoryMessage (Player Wins!)
+// // alert (play again?)
