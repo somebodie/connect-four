@@ -9,14 +9,14 @@ var startGame =
     console.log("starting!");
   });
 
-// var selections = $('level').val()
-
 // var selectLevel =
 // to hold options for selections and paramaters
   // when player clicks makes a selection button diffucutlty changes
-//   switch(selects) {
+// $('level').val()
+//   switch($(val()) {
 //     case pvp:
-//         alternatePlayer;
+//         $('#gamePiece').addClass('redPlayer');
+//        alternatePlayer;
 //         break;
 //     case easy:
 //        $('column')Math.Random(div:column);
@@ -26,34 +26,30 @@ var startGame =
 //         break;
 //     default:
 //         console.log('selection made')
-// }
-      // IDEA: maybe in advance allow to pick color
-  // });
+// }      // IDEA: maybe in advance allow to pick color
 
-// var alternatePlayer =
-//  // switch from redPlayer to yellowPlayer
-//  $(pickColumn).eventlistener(function(){
-//      $('redPlayer').toggleClass('redPlayer''yellowPlayer');
-//  });
 
-// var pickColumn =
-// $( "div.this" ).click(function() {
-//    slideDown()
-//    alternatePlayer;
+// var selections = // moves piece left to right
+
+
+var alternatePlayer =
+ // switch from redPlayer to yellowPlayer
+ $('pickColumn').click(function(){
+     $('.redPlayer').toggleClass('yellowPlayer');
+ });
+
+var pickColumn =
+// this allows the player to make move
+  $("column").click(function(){
+      $("div:last").addClass("activePlayer");
+      alternatePlayer;
+  });
+}
 // when a player picks a column piece drops and then alternatePlayer
 
 
 
-
-
-
-// var makeMove = function() {
-//   $("column").click(function(){
-//       $("div:last").addClass("activePlayer");
-      // alternatePlayer;
-//   });
-// }
-
+//
 // var isValidMove =
 //   // if there is a next prompt
 //   if (currentPrompt < prompts.length) {
