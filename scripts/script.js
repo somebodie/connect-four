@@ -6,17 +6,10 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
-var startGame =
-  $( ".start" ).click(function() {
-// gamePiece shows red on startGame
-    $('#gamePiece').addClass('redPlayer');
-    console.log("starting!");
-  });
+// var selectLevel = $('level').val()
 
-// var selectLevel =
-// to hold options for selections and paramaters
-  // when player clicks makes a selection button diffucutlty changes
-// $('level').val()
+//  var diffucutlty =
+// when player clicks makes a selection button diffucutlty changes
 //   switch($(val()) {
 //     case pvp:
 //         $('#gamePiece').addClass('redPlayer');
@@ -30,10 +23,30 @@ var startGame =
 //         break;
 //     default:
 //         console.log('selection made')
-// }      // IDEA: maybe in advance allow to pick color
+// }
+
+// IDEA: maybe in input to allow to players to pick color
+
+var startGame =
+  $( ".start" ).click(function() {
+// gamePiece shows red on startGame
+    $('#gamePiece').addClass('redPlayer');
+    console.log("starting!");
+  });
 
 
-// var selections = // moves piece left to right
+// var coinMove = // moves piece left to right
+
+var pickColumn =
+  switch ($('column').click() {
+  case $('#gamePiece').hasClass('redPlayer'):
+    $('div:last').addClass('redPlayer')
+    break;
+  case $('#gamePiece').hasClass('yellowPlayer'):
+      $('div:last').addClass('yellowPlayer')
+    break;
+  default: alert('did you pick something on the board?');
+}
 
 var alternatePlayer =
  // switch from redPlayer to yellowPlayer
@@ -41,16 +54,7 @@ var alternatePlayer =
      $('.redPlayer').toggleClass('yellowPlayer');
  });
 
-// var makeMove =
-
-// var pickColumn =
-// // this allows the player to select space
-//   $("column").click(function(){
-//       $("div:last").addClass("curr entPlayer['r']");
-// need to figure out how to switch index back and forth
-// .each(currentPlayer)
-//       alternatePlayer;
-//   });
+// var switch = $('pickColumn').alternatePlayer
 
 // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
@@ -58,3 +62,24 @@ var alternatePlayer =
 // if ($(pickColumn).hasClass('filled')) {
 // if there is a space filled
 // div:last-1 }
+// or
+// var filled = make sure row cannot be filled 
+// or
+// var isValidMove = function(event) {
+//     // IDEA: case switch //   case expression:
+//     //
+//     //     break;
+//     // IDEA: reads rows to stop moves .hasClass
+// }
+
+var endGame =
+
+var winningMove =
+
+var gameOver =
+
+var playersWin =
+
+var victoryMessage =
+// atVictoryMessage (Player Wins!)
+// alert (play again?)

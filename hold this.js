@@ -7,26 +7,6 @@ var blackPlayer = [];
 
 // IDEA: var [][] board = { };
 
-var resetGame = function() {
-
-}
-
-var gameOver = function() {
-
-}
-
-var startGame = function() {
-    // IDEA: $('startButton').hide() new game and rest.show() rest button
-}
-
-var onStart = function() {
-// show game piece and allow player to make move
-}
-
-var onClick = function() {
-// coinDrop into column @keyframes
-}
-
 var coinDrop = function() {
         // manipulate css to drop piece .style
         // IDEA:
@@ -43,53 +23,7 @@ var coinDrop = function() {
     }
     // source progress bar sample to make piece move
     // gamePiece.style.postion.top (or bottom and negative) (howmanyitneeds to fall in place)
-var currentPlayer = function(event) {
 
-}
+// IDEA:  if (gamOver) {}
 
-var takesTheBoard = function(event) {
-    // alternate players .toggleclass
-}
-
-var isValidMove = function(event) {
-    // IDEA: case switch //   case expression:
-    //
-    //     break;
-    // IDEA: reads rows to stop moves .hasClass
-}
-
-// if (gamOver) {}
-
-var makeMove = function() {
-    // IDEA: $('.div this').html(makeMove[activePlayer]);
-}
-
-var onClickNewGame = function(event) {
-    return resetGame
-}
-
-var winningMove = function(event) {
-
-}
-
-var playersWin = function() {
-
-}
-
-var victoryMessage = function() {
-    // atVictoryMessage (Player Wins!)
-    // alert (play again?)
-}
-
-// Possible AI
-var easy = function() {
-    //  - Random Math.random
-}
-
-var hard = function() {
-    //   - Tries to stop win;
-}
-
-$("column").click(function(){
-    $("div:last").addClass("activePlayer");
-});
+// IDEA: $('.div this').html(makeMove[activePlayer]);

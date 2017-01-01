@@ -2,22 +2,6 @@
 // var yellow : [21 spaces]
 // var red: [21 spaces]
 //
-//
-//
-// playersWin(function(event)) {
-//
-// }
-//
-//
-// winningMove(){
-//
-// }
-//
-// atVictoryMessage (Player Wins!)
-// alert (play again?)
-//
-
-//
 // column (makes move)
 // row (makes validMove)
 
