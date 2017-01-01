@@ -6,11 +6,7 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
-var yellow: [];//21 spaces
 
-var red: []; //21 spaces
-
-// IDEA: answers.push($('input').val())
 
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
@@ -48,7 +44,7 @@ var startGame =
 //
 
 // var coinMove = // moves piece left to right
-//
+// column (makes move)
 
 
 //
@@ -83,6 +79,8 @@ var startGame =
 // // if ($(pickColumn).hasClass('filled')) {
 // // if there is a space filled
 // // div:last-1 }
+// row (makes validMove)
+
 
 // var endGame =
 //

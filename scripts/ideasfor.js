@@ -1,9 +1,10 @@
-//
-// var yellow : [21 spaces]
-// var red: [21 spaces]
-//
-// column (makes move)
-// row (makes validMove)
+var yellow: [];//21 spaces
+
+var red: []; //21 spaces
+
+// IDEA: answers.push($('input').val())
+
+
 
 // The size of the table.
 var entireBoard = 42;
