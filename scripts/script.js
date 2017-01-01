@@ -10,6 +10,8 @@ var yellow: [];//21 spaces
 
 var red: []; //21 spaces
 
+// IDEA: answers.push($('input').val())
+
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
 // when player clicks makes a selection button diffucutlty changes
