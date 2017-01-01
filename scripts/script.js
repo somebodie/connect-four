@@ -86,7 +86,7 @@ var startGame =
 //
 // var winningMove =
 //
-// var gameOver =
+// var gameOver = if...else..
 //
 // var playersWin =
 //

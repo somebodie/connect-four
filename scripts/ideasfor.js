@@ -2,9 +2,24 @@ var yellow: [];//21 spaces
 
 var red: []; //21 spaces
 
+var bothPlayers = [yellow][red]
 // IDEA: answers.push($('input').val())
 
-
+var coinDrop = function() {
+        // manipulate css to drop piece .style
+        // IDEA:
+        // drawProgressBars: function(timerValue){
+        // //// MVP
+        // var timeElapsed = 100 - timerValue;
+        // document.getElementsByClassName('progress-bar')[0].style.width = timeElapsed + '%';
+        // //// REACH
+        // // var progress = 100 - timerValue;
+        // // var bars = document.getElementsByClassName('progress-bar');
+        // // for (var i = 0; i < bars.length; i++) {
+        // //   bars[i].style.width = progress + '%';
+        // // }
+    }
+    // source progress bar sample to make piece move
 
 // The size of the table.
 var entireBoard = 42;
