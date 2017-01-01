@@ -25,10 +25,19 @@ h1 {
 }
 
 .board {
-    display:
+    display: ;
+    background-color: blue;
+    position: ;
 }
 
-.rows {}
+.rows, .columns {
+  background-color: transperent;
+  position: ;
+}
+
+.rows {
+
+}
 
 .columns {
     display: inline-block;
