@@ -6,6 +6,9 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
+var yellow: [];//21 spaces
+
+var red: []; //21 spaces
 
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
