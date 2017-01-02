@@ -5,6 +5,14 @@ var red: []; //21 spaces
 var bothPlayers = [yellow][red]
 // IDEA: answers.push($('input').val())
 
+
+// read entire board
+for (int i = 0; i < cols; i++) {
+  for (int j = 0; j < rows; j++) {
+    myArray[i][j] = 0;
+  }
+}
+
 var coinDrop = function() {
         // manipulate css to drop piece .style
         // IDEA:
