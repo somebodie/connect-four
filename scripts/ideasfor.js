@@ -51,4 +51,27 @@ for (i = 1; i <= entireBoard; i++)
     }
 }
 
-array.push($('input').val()) 
+array.push($('input').val())
+
+// var drop = animation }// when a player picks a column piece drops and then alternatePlayer
+
+var isValidMove =
+ if (pickSpace.hasClass('filled')) {
+ if there is a space filled
+div:last-1 }
+ row (makes validMove)
+
+ var endGame =
+
+ var winningMove =
+
+ var gameOver = if...else..
+
+ var playersWin =
+
+ var victoryMessage =
+ atVictoryMessage (Player Wins!)
+ alert (play again?)
+
+ var coinMove = // moves piece left to right
+ column (makes move)

@@ -8,3 +8,9 @@ for (int i = 0; i < cols; i++) {
     myArray[i][j] = 0;
   }
 }
+
+
+$('column').click(function() {
+  console.log("that's your move?");
+appendClass to currentPlayer
+});

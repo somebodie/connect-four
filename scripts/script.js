@@ -3,8 +3,9 @@ $(document).ready(function() {
 })
 
 var currentPlayer = {
-                r : 'redPlayer',
-                y : 'yellowPlayer'};
+    r: 'redPlayer',
+    y: 'yellowPlayer'
+};
 
 var entireBoard = [];
 
@@ -13,12 +14,12 @@ var rows = 21;
 
 // Read entire board
 var readBoard =
-for (i = 0; i < cols; i++) {
-  for ( j = 0; j < rows; j++) {
-    myArray[i][j] = 0;
-    entireBoard.push(myArray);
-  }
-}
+    for (i = 0; i < cols; i++) {
+        for (j = 0; j < rows; j++) {
+            myArray[i][j] = 0;
+            entireBoard.push(myArray);
+        }
+    }
 
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
@@ -41,67 +42,28 @@ for (i = 0; i < cols; i++) {
 // IDEA: maybe in input to allow to players to pick color
 
 var startGame =
-  $( ".start" ).click(function() {
-// gamePiece shows red on startGame
-    $('#gamePiece').addClass('redPlayer');
-    console.log("starting!");
-  });
+    $(".start").click(function() {
+        // gamePiece shows red on startGame
+        $('#gamePiece').addClass('redPlayer');
+        console.log("starting!");
+    });
 
-// $('column').click(function() {
-//   console.log("that's your move?");
-// appendClass to currentPlayer
-// });
-//
+var pickSpace =
+    switch (makeMove) {
+        case $('#gamePiece').hasClass('redPlayer'):
+            $('div:last').addClass('redPlayer')
+            break;
+        case $('#gamePiece').hasClass('yellowPlayer'):
+            $('div:last').addClass('yellowPlayer')
+            break;
+        default:
+            alert('did you pick something on the board?');
+    }
 
-// var coinMove = // moves piece left to right
-// column (makes move)
+var alternatePlayer =
+    // switch from redPlayer to yellowPlayer
+    $('pickColumn').click(function() {
+        $('.redPlayer').toggleClass('yellowPlayer');
+    });
 
-
-//
-// var placeInColumn;
-//   switch (makeMove) {
-//   case $('#gamePiece').hasClass('redPlayer'):
-//     $('div:last').addClass('redPlayer')
-//     break;
-//   case $('#gamePiece').hasClass('yellowPlayer'):
-//       $('div:last').addClass('yellowPlayer')
-//     break;
-//   default: alert('did you pick something on the board?');
-// }
-//
-
-
-// var alternatePlayer =
-//  // switch from redPlayer to yellowPlayer
-//  $('pickColumn').click(function(){
-//      $('.redPlayer').toggleClass('yellowPlayer');
-//  });
-//
-
-
-// // var switch = $('pickColumn').alternatePlayer
-//
-
-// // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
-//
-
-// // var isValidMove =
-// // if ($(pickColumn).hasClass('filled')) {
-// // if there is a space filled
-// // div:last-1 }
-// row (makes validMove)
-
-
-// var endGame =
-//
-// var winningMove =
-//
-// var gameOver = if...else..
-//
-// var playersWin =
-
-
-//
-// var victoryMessage =
-// // atVictoryMessage (Player Wins!)
-// // alert (play again?)
+var nextMove = pickSpace.alternatePlayer;
