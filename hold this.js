@@ -12,5 +12,17 @@ for (int i = 0; i < cols; i++) {
 
 $('column').click(function() {
   console.log("that's your move?");
-appendClass to currentPlayer
+// pickSpace.alternatePlayer;
 });
+
+var pickSpace =
+    switch ($('div.columns').click()) {
+        case $('#gamePiece').hasClass('redPlayer'):
+            $('div:last').addClass('redPlayer')
+            break;
+        case $('#gamePiece').hasClass('yellowPlayer'):
+            $('div:last').addClass('yellowPlayer')
+            break;
+        default:
+            alert('did you pick something on the board?');
+    }

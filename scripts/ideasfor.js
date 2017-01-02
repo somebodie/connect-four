@@ -1,17 +1,4 @@
-var yellow: [];//21 spaces
 
-var red: []; //21 spaces
-
-var bothPlayers = [yellow][red]
-// IDEA: answers.push($('input').val())
-
-
-// read entire board
-for (int i = 0; i < cols; i++) {
-  for (int j = 0; j < rows; j++) {
-    myArray[i][j] = 0;
-  }
-}
 
 var coinDrop = function() {
         // manipulate css to drop piece .style
@@ -75,3 +62,52 @@ div:last-1 }
 
  var coinMove = // moves piece left to right
  column (makes move)
+
+ var yellow: [];//21 spaces
+
+ var red: []; //21 spaces
+
+ var bothPlayers = [yellow][red]
+ // IDEA: answers.push($('input').val())
+
+
+ // read entire board
+ for (int i = 0; i < cols; i++) {
+   for (int j = 0; j < rows; j++) {
+     myArray[i][j] = 0;
+   }
+ }
+
+ var entireBoard = [];
+
+ var cols = 21;
+ var rows = 21;
+
+ // Read entire board
+ var readBoard =
+     for (i = 0; i < cols; i++) {
+         for (j = 0; j < rows; j++) {
+             myArray[i][j] = 0;
+             entireBoard.push(myArray[i][j]);
+         }
+     }
+
+     //  var selectedLevel;
+     // var diffucutlty = $('level').val();
+     // when player clicks makes a selection button diffucutlty changes
+     //   switch(diffucutlty) {
+     //     case pvp:
+     //         selectedLevel = $('#gamePiece').addClass('redPlayer');
+     //        alternatePlayer;
+     //         break;
+     //     case easy:
+     //        selectedLevel = $('column')Math.Random(div:column);
+     //         break;
+     //     case hard:
+     //         code block
+     //         break;
+     //     default:
+     //         console.log('selection made')
+     // }
+
+     // IDEA: maybe in input to allow to players to pick color
