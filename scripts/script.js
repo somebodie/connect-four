@@ -6,15 +6,19 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
-var entireBoard = []
+var entireBoard = [];
 
-// // read entire board
-// for (int i = 0; i < cols; i++) {
-//   for (int j = 0; j < rows; j++) {
-//     myArray[i][j] = 0;
-//   }
-// }
-// entireBoard.push('$myArray[i][j] = 0');
+var cols = 21;
+var rows = 21;
+
+// Read entire board
+var readBoard =
+for (i = 0; i < cols; i++) {
+  for ( j = 0; j < rows; j++) {
+    myArray[i][j] = 0;
+    entireBoard.push(myArray);
+  }
+}
 
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
@@ -43,9 +47,7 @@ var startGame =
     console.log("starting!");
   });
 
-// Should read entire board to allow move and move up div
-// some code that listens for column selected;
-// var makeMove = $('column').click(function() {
+// $('column').click(function() {
 //   console.log("that's your move?");
 // appendClass to currentPlayer
 // });
