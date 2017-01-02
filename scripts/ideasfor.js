@@ -50,3 +50,5 @@ for (i = 1; i <= entireBoard; i++)
         connect4Board[i][j] = i * j;
     }
 }
+
+array.push($('input').val()) 

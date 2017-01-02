@@ -6,7 +6,15 @@ var currentPlayer = {
                 r : 'redPlayer',
                 y : 'yellowPlayer'};
 
+var entireBoard = []
 
+// // read entire board
+// for (int i = 0; i < cols; i++) {
+//   for (int j = 0; j < rows; j++) {
+//     myArray[i][j] = 0;
+//   }
+// }
+// entireBoard.push('$myArray[i][j] = 0');
 
 //  var selectedLevel;
 // var diffucutlty = $('level').val();
@@ -89,12 +97,6 @@ var startGame =
 // var gameOver = if...else..
 //
 // var playersWin =
-// // read entire board
-// for (int i = 0; i < cols; i++) {
-//   for (int j = 0; j < rows; j++) {
-//     myArray[i][j] = 0;
-//   }
-// }
 
 
 //
