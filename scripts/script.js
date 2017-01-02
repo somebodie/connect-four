@@ -7,9 +7,19 @@ var players = {
     2: 'yellowPlayer'
 };
 
-var columns = []
+var columns =
 
-var entireBoard = $('div.columns')
+$('#6'): [1, 2, 3, 4, 5, 6, 7];
+$('#5'): [1, 2, 3, 4, 5, 6, 7];
+$('#4'): [1, 2, 3, 4, 5, 6, 7];
+$('#3'): [1, 2, 3, 4, 5, 6, 7];
+$('#2'): [1, 2, 3, 4, 5, 6, 7];
+$('#1'): [1, 2, 3, 4, 5, 6, 7];
+
+var pickingSpace =
+
+    columns.pop.last
+  }
 
 var startGame =
     $(".start").click(function() {
@@ -20,8 +30,8 @@ var startGame =
 
 var mouseMoves =
 
-// var alternatePlayer =
-//     // switch from redPlayer to yellowPlayer
-//     $('').click(function() {
-//         $('.redPlayer').toggleClass('yellowPlayer');
-//     });
+    // var alternatePlayer =
+    //     // switch from redPlayer to yellowPlayer
+    //     $('').click(function() {
+    //         $('.redPlayer').toggleClass('yellowPlayer');
+    //     });
