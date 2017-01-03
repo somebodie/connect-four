@@ -1,0 +1,3 @@
+This is a connect four game.
+
+The purpose is to be able to play a full game of connect four. I aimed to have it work 3 different ways however had some trips with events. Mainly due to my conflict with the board and how best to read it in a way that would allow it to also loop through the board to stop it from overlapping. Did manage the drop. Also need to work on moving the mouse. I wanted to tie the event to the mouse being clicked however since I could not figure out a way (side note: looked at mouse events but did not clearly understand how it was being defined) to move my css (second side note: played with the progress bar lady bug idea) I was stuck here for a while. However was able to alternate players as well. For the most part got very far but nothing working.
