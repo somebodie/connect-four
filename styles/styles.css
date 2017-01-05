@@ -17,9 +17,17 @@ body {
     border: 15px solid #E50000;
 }
 
+#red {
+  background-color: red;
+}
+
 .yellowPlayer {
     background: #FFFC19;
     border: 15px solid #FFE300;
+}
+
+#yellow {
+  background-color: yellow;
 }
 
 .board {
@@ -40,8 +48,8 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 50px;
-    /*background-color: red;
-    z-index: -1;*/
+    background-color: white;
+    z-index: -1;
 }
 
 @keyframes drop {
