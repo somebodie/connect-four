@@ -3,8 +3,8 @@ $(document).ready(function() {
 })
 
 var player = {
-    one: 'redPlayer',
-    two: 'yellowPlayer'
+    red: 'redPlayer',
+    yellow: 'yellowPlayer'
 };
 
 var board = {
@@ -23,11 +23,24 @@ var startGame =
         console.log("starting!");
     });
 
-var move =
-// when player picks a column the lowest column has id filled with player then alternatePlayer
+// var pickASpace =
+  // player allowed to pick space
 
+// var pieceDrops =
+  // animation of piece moving to space
+
+// var moveMade =
+  // column space changes from white to color
+
+// when player picks a column the lowest column has id filled with player then alternatePlayer
     // var alternatePlayer =
     //     // switch from redPlayer to yellowPlayer
     //     $('').click(function() {
     //         $('.redPlayer').toggleClass('yellowPlayer');
     //     });
+
+// var checkForWin
+
+// var winningMessage
+
+// var resetGame 

@@ -2,8 +2,6 @@ body {
     text-align: center;
 }
 
-.start {}
-
 #gamePiece {
     height: 40px;
     width: 40px;
@@ -12,13 +10,11 @@ body {
     animation: slideout;
 }
 
+/*source: used dash to determine color shapes for game pieces*/
+
 .redPlayer {
     background: #FF0000;
     border: 15px solid #E50000;
-}
-
-#red {
-  background-color: red;
 }
 
 .yellowPlayer {
@@ -26,15 +22,9 @@ body {
     border: 15px solid #FFE300;
 }
 
-#yellow {
-  background-color: yellow;
-}
-
 .board {
     height: 400px;
-    display: ;
     background-color: blue;
-    position: ;
 }
 
 .rows {
@@ -51,95 +41,3 @@ body {
     background-color: white;
     z-index: -1;
 }
-
-@keyframes drop {
-    50% {
-        top: 100px;
-    }
-    75% {
-        top: 100px;
-    }
-}
-
-@-webkit-keyframes drop {
-    50% {
-        top: 100px;
-    }
-    75% {
-        top: 100px;
-    }
-}
-
-@-moz-keyframes drop {
-    50% {
-        top: 100px;
-    }
-    75% {
-        top: 100px;
-    }
-}
-
-@keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@-webkit-keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@-moz-keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 300%;
-    }
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
-}
-
-@keyframes slideout {
-    25% {
-        left: 100px;
-    }
-    50% {
-        left: 100px;
-    }
-}
-
-@-webkit-keyframes slideout {
-    25% {
-        left: 100px;
-    }
-    50% {
-        left: 100px;
-    }
-}
-
-@-moz-keyframes slideout {
-    25% {
-        left: 100px;
-    }
-    50% {
-        left: 100px;
-    }
-}
-
-
-/* source: used dash to determine color shapes for game pieces
-
-radial-gradient(circle, white 15%, transparent 40%), #cc5;
