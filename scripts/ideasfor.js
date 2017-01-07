@@ -40,13 +40,8 @@ for (i = 1; i <= entireBoard; i++)
 
 array.push($('input').val())
 
-// var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
-var isValidMove =
- if (pickSpace.hasClass('filled')) {
- if there is a space filled
-div:last-1 }
- row (makes validMove)
+
 
  var endGame =
 
@@ -91,23 +86,3 @@ div:last-1 }
              entireBoard.push(myArray[i][j]);
          }
      }
-
-     //  var selectedLevel;
-     // var diffucutlty = $('level').val();
-     // when player clicks makes a selection button diffucutlty changes
-     //   switch(diffucutlty) {
-     //     case pvp:
-     //         selectedLevel = $('#gamePiece').addClass('redPlayer');
-     //        alternatePlayer;
-     //         break;
-     //     case easy:
-     //        selectedLevel = $('column')Math.Random(div:column);
-     //         break;
-     //     case hard:
-     //         code block
-     //         break;
-     //     default:
-     //         console.log('selection made')
-     // }
-
-     // IDEA: maybe in input to allow to players to pick color
