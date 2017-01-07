@@ -26,7 +26,7 @@ body {
     border-radius: 50px;
     height: 45em;
     width: 45em;
-    background-color: ;
+    background-color: purple;
 }
 
 .columns {
@@ -38,10 +38,13 @@ body {
     /* border: 1px solid red; */
     display: inline-flex;
     flex-flow: column wrap;
+    justify-content: space-between;
 }
 
 .rows {
     width: 100%;
     height: 15%;
-    border: 1px solid red;
+    border: 1px solid honeydew;
+    border-radius: 100%;
+    background-color: white;
 }

@@ -9,6 +9,20 @@ for (i = 0; i < rows1; i++) {
     }
 }
 
+
+var player = {
+    red: 'redPlayer',
+    yellow: 'yellowPlayer'
+};
+
+var board = {
+    row1: [1, 2, 3, 4, 5, 6, 7],
+    row2: [1, 2, 3, 4, 5, 6, 7],
+    row3: [1, 2, 3, 4, 5, 6, 7],
+    row4: [1, 2, 3, 4, 5, 6, 7],
+    row5: [1, 2, 3, 4, 5, 6, 7],
+    row6: [1, 2, 3, 4, 5, 6, 7],
+}
 <<<<<<< HEAD
 <<<<<<< HEAD
 // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
@@ -78,6 +92,7 @@ $('column').click(function() {
       } else if ($('gamePiece').hasClass('yellowPlayer')) {
         column.this.addID(player.yellow);
       } else alternatePlayer;
+
 <<<<<<< HEAD
 >>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
 =======

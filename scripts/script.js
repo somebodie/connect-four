@@ -2,20 +2,6 @@ $(document).ready(function() {
     console.log('ready!');
 })
 
-var player = {
-    red: 'redPlayer',
-    yellow: 'yellowPlayer'
-};
-
-var board = {
-    row1: [1, 2, 3, 4, 5, 6, 7],
-    row2: [1, 2, 3, 4, 5, 6, 7],
-    row3: [1, 2, 3, 4, 5, 6, 7],
-    row4: [1, 2, 3, 4, 5, 6, 7],
-    row5: [1, 2, 3, 4, 5, 6, 7],
-    row6: [1, 2, 3, 4, 5, 6, 7],
-}
-
 var startGame =
     $(".start").click(function() {
         // gamePiece shows red on startGame
@@ -26,19 +12,27 @@ var startGame =
 var pickSpace =
     $('div.columns').click(function() {
         fill();
-        console.log("move made!");
+        console.log($(this));
     });
 
-var fill = function() {
-    if ($('gamePiece').hasClass('yellowPlayer')) {
-        $().removeClass('empty').addClass('yellowPlayer');
-        alternatePlayer();
-    } else if ($(gamePiece).hasClass('redPlayer')) {
-        $().removeClass('empty').addClass('redPlayer row');
-        alternatePlayer();
-    }
-};
+var $('columnPicked') = $(this.columns)
 
+var fill = function() {
+
+for (i=rows.length; i<=0; i++) {
+  if (!rows.hasClass('yellowPlayer')) {
+    $(row[i]).css('background-color', 'yellow')
+  }
+}
+
+//     if ($('gamePiece').hasClass('yellowPlayer')) {
+//         $('div:last').css('background-color', 'yellow');
+//         alternatePlayer();
+//     } else if ($(gamePiece).hasClass('redPlayer')) {
+//         $('div:last').css('background-color', 'red');
+//         alternatePlayer();
+//     }
+// };
 
 // when player picks a column the lowest column has id filled with player then alternatePlayer
 var alternatePlayer = function() {
