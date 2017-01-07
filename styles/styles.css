@@ -37,8 +37,8 @@ body {
     box-sizing: border-box;
     /* border: 1px solid red; */
     display: inline-flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-flow: column-reverse wrap;
+    justify-content: space-around;
 }
 
 .rows {
@@ -46,5 +46,5 @@ body {
     height: 15%;
     border: 1px solid honeydew;
     border-radius: 100%;
-    background-color: white;
+    /*background-color: white;*/
 }

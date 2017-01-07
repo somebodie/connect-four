@@ -24,30 +24,40 @@ var board = {
     row6: [1, 2, 3, 4, 5, 6, 7],
 }
 
-var fill = function() {
-    columnPicked.click(function() {
-        if (!$('rows').hasclass(filled)) {
-            $(rows).addclass(filled);
-            alteneratePlayer();
-            for (i = 0; rows.length; i++) {
-                if ($('gamePiece').hasClass('yellowPlayer')) {
-                    $(row[i]).css('background-color', 'yellow');
-                    alternatePlayer();
-                    return console.log(yellow);
-                } else if ($(gamePiece).hasClass('redPlayer')) {
-                    $(row[i]).css('background-color', 'red');
-                    alternatePlayer();
-                    return console.log(red);
-                }
-            }
-        }
-    })
-};
+var fill = function(column) {
+//     // columnPicked.click(function() {
+//     //     if (!$('rows').hasclass(filled)) {
+//     //         $(rows).addclass(filled);
+//     //         alteneratePlayer();
+//
+//     var getRow = column.
+//             for (i = 0; rows.length; i++) {
+//                 if ($('gamePiece').hasClass('yellowPlayer')) {
+//                     $(row[i]).css('background-color', 'yellow');
+//                     alternatePlayer();
+//                     return console.log(yellow);
+//                 } else if ($(gamePiece).hasClass('redPlayer')) {
+//                     $(row[i]).css('background-color', 'red');
+//                     alternatePlayer();
+//                     return console.log(red);
+//                 }
+//             }
+//         }
+//     })
+// };
+
+
 
 $('div.columns').click(function() {
-    fill();
+    fill($(this));
     console.log($(this));
 });
+
+if (!rows[i].classList.contains('yellowPlayer') || !rows[i].classList.contains('redPlayer')) {
+  $(rows[i]).
+  console.log($(rows[i]));
+  break;
+}
 
 <<<<<<< HEAD
 <<<<<<< HEAD
