@@ -1,5 +1,3 @@
-
-
 var coinDrop = function() {
         // manipulate css to drop piece .style
         // IDEA:
@@ -26,14 +24,12 @@ var i, j;
 var connect4Board = new Array(entireBoard + 1);
 
 // Loop for each major number (each row in the table)
-for (i = 1; i <= entireBoard; i++)
-{
+for (i = 1; i <= entireBoard; i++) {
     // Create the columns in the table
     connect4Board[i] = new Array(entireBoard + 1);
 
     // Fill the row with the results of the multiplication
-    for (j = 1; j <= entireBoard; j++)
-    {
+    for (j = 1; j <= entireBoard; j++) {
         connect4Board[i][j] = i * j;
     }
 }
@@ -43,46 +39,48 @@ array.push($('input').val())
 
 
 
- var endGame =
+var endGame =
 
- var winningMove =
+    var winningMove =
 
- var gameOver = if...else..
+        var gameOver =
+            if ...
+            else ..
 
- var playersWin =
+var playersWin =
 
- var victoryMessage =
- atVictoryMessage (Player Wins!)
- alert (play again?)
+    var victoryMessage =
+        atVictoryMessage(Player Wins!)
+alert(play again ? )
 
- var coinMove = // moves piece left to right
- column (makes move)
+var coinMove = // moves piece left to right
+    column(makes move)
 
- var yellow: [];//21 spaces
+var yellow: []; //21 spaces
 
- var red: []; //21 spaces
+var red: []; //21 spaces
 
- var bothPlayers = [yellow][red]
- // IDEA: answers.push($('input').val())
+var bothPlayers = [yellow][red]
+    // IDEA: answers.push($('input').val())
 
 
- // read entire board
- for (int i = 0; i < cols; i++) {
-   for (int j = 0; j < rows; j++) {
-     myArray[i][j] = 0;
-   }
- }
+// read entire board
+for (int i = 0; i < cols; i++) {
+    for (int j = 0; j < rows; j++) {
+        myArray[i][j] = 0;
+    }
+}
 
- var entireBoard = [];
+var entireBoard = [];
 
- var cols = 21;
- var rows = 21;
+var cols = 21;
+var rows = 21;
 
- // Read entire board
- var readBoard =
-     for (i = 0; i < cols; i++) {
-         for (j = 0; j < rows; j++) {
-             myArray[i][j] = 0;
-             entireBoard.push(myArray[i][j]);
-         }
-     }
+// Read entire board
+var readBoard =
+    for (i = 0; i < cols; i++) {
+        for (j = 0; j < rows; j++) {
+            myArray[i][j] = 0;
+            entireBoard.push(myArray[i][j]);
+        }
+    }
