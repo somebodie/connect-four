@@ -23,6 +23,32 @@ var board = {
     row5: [1, 2, 3, 4, 5, 6, 7],
     row6: [1, 2, 3, 4, 5, 6, 7],
 }
+
+var fill = function() {
+    columnPicked.click(function() {
+        if (!$('rows').hasclass(filled)) {
+            $(rows).addclass(filled);
+            alteneratePlayer();
+            for (i = 0; rows.length; i++) {
+                if ($('gamePiece').hasClass('yellowPlayer')) {
+                    $(row[i]).css('background-color', 'yellow');
+                    alternatePlayer();
+                    return console.log(yellow);
+                } else if ($(gamePiece).hasClass('redPlayer')) {
+                    $(row[i]).css('background-color', 'red');
+                    alternatePlayer();
+                    return console.log(red);
+                }
+            }
+        }
+    })
+};
+
+$('div.columns').click(function() {
+    fill();
+    console.log($(this));
+});
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 // var drop = animation }// when a player picks a column piece drops and then alternatePlayer

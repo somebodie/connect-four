@@ -9,30 +9,11 @@ var startGame =
         console.log("starting!");
     });
 
+var columnPicked = $(this.columns)
+
 var pickSpace =
-    $('div.columns').click(function() {
-        fill();
-        console.log($(this));
-    });
 
-var $('columnPicked') = $(this.columns)
 
-var fill = function() {
-
-for (i=rows.length; i<=0; i++) {
-  if (!rows.hasClass('yellowPlayer')) {
-    $(row[i]).css('background-color', 'yellow')
-  }
-}
-
-//     if ($('gamePiece').hasClass('yellowPlayer')) {
-//         $('div:last').css('background-color', 'yellow');
-//         alternatePlayer();
-//     } else if ($(gamePiece).hasClass('redPlayer')) {
-//         $('div:last').css('background-color', 'red');
-//         alternatePlayer();
-//     }
-// };
 
 // when player picks a column the lowest column has id filled with player then alternatePlayer
 var alternatePlayer = function() {
