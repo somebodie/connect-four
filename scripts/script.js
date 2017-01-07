@@ -25,17 +25,16 @@ var startGame =
 
 var pickSpace =
     $('div.columns').click(function() {
-      fill();
-      console.log('space was clicked!');
+        fill();
+        console.log("move made!");
     });
 
 var fill = function() {
-    if ($(gamePiece).hasClass('redPlayer')) {
-        $('rows.last').removeClass('rows').addClass('redPlayer row');
-        alternatePlayer();
-    } else
     if ($(gamePiece).hasClass('yellowPlayer')) {
-        $('rows.last').removeClass('rows').addClass('yellowPlayer row');
+        $().removeClass('empty').addClass('yellowPlayer');
+        alternatePlayer();
+    } else if ($(gamePiece).hasClass('redPlayer')) {
+        $().removeClass('empty').addClass('redPlayer row');
         alternatePlayer();
     }
 };
@@ -43,11 +42,15 @@ var fill = function() {
 
 // when player picks a column the lowest column has id filled with player then alternatePlayer
 var alternatePlayer = function() {
-  $('.redPlayer').toggleClass('yellowPlayer');
-  console.log('Player Switched!');
+    $('.redPlayer').toggleClass('yellowPlayer');
+    console.log('Player Switched!');
 };
 
+
+// validMove
+
 // var checkForWin
+// div.dataset.row (checks whats in the space)
 
 // var winningMessage
 
