@@ -40,11 +40,7 @@ body {
     flex-flow: column wrap;
 }
 
-<<<<<<< HEAD
-.row {
-=======
 .rows {
->>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
     width: 100%;
     height: 15%;
     border: 1px solid red;

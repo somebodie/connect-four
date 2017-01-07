@@ -43,8 +43,11 @@ var isValidMove =
  if there is a space filled
 div:last-1 }
  row (makes validMove)
+<<<<<<< HEAD
 
 var endGame =
+=======
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
 
     var winningMove =
 
@@ -119,4 +122,7 @@ var readBoard =
      // }
 
      // IDEA: maybe in input to allow to players to pick color
+<<<<<<< HEAD
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
+=======
 >>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space

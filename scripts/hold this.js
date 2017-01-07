@@ -10,6 +10,7 @@ for (i = 0; i < rows1; i++) {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
 var isValidMove =
@@ -50,6 +51,9 @@ if ($('gamePiece').hasClass('yellowPlayer')) {
 // IDEA: maybe in input to allow to players to pick color
 =======
 
+=======
+
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
 $('column').click(function() {
   console.log("that's your move?");
 // pickSpace.alternatePlayer;
@@ -74,4 +78,7 @@ $('column').click(function() {
       } else if ($('gamePiece').hasClass('yellowPlayer')) {
         column.this.addID(player.yellow);
       } else alternatePlayer;
+<<<<<<< HEAD
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
+=======
 >>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
