@@ -30,10 +30,10 @@ var pickSpace =
     });
 
 var fill = function() {
-    if ($(gamePiece).hasClass('yellowPlayer')) {
+    if ($('gamePiece').hasClass('yellowPlayer')) {
         $().removeClass('empty').addClass('yellowPlayer');
         alternatePlayer();
-    } else if ($(gamePiece).hasClass('redPlayer')) {
+    } else if ($('gamePiece').hasClass('redPlayer')) {
         $().removeClass('empty').addClass('redPlayer row');
         alternatePlayer();
     }
