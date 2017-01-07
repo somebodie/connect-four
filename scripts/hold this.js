@@ -9,6 +9,7 @@ for (i = 0; i < rows1; i++) {
     }
 }
 
+<<<<<<< HEAD
 // var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
 var isValidMove =
@@ -47,3 +48,30 @@ if ($('gamePiece').hasClass('yellowPlayer')) {
 // }
 
 // IDEA: maybe in input to allow to players to pick color
+=======
+
+$('column').click(function() {
+  console.log("that's your move?");
+// pickSpace.alternatePlayer;
+});
+
+
+// switch (pickASpace) {
+//     case $('#gamePiece').hasClass('redPlayer'):
+//         $('column').addID('redPlayer');
+//         alternatePlayer();
+//         break;
+//     case $('#gamePiece').hasClass('yellowPlayer'):
+//         $('column').addID('yellowPlayer');
+//         alternatePlayer();
+//         break;
+//     default:
+//         alert('did you pick something on the board?');
+// }
+    var fillingSpace =
+    if ($('gamePiece').hasClass('redPlayer')) {
+        addID(player.red);
+      } else if ($('gamePiece').hasClass('yellowPlayer')) {
+        column.this.addID(player.yellow);
+      } else alternatePlayer;
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space

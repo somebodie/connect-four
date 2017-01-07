@@ -36,8 +36,13 @@ for (i = 1; i <= entireBoard; i++) {
 
 array.push($('input').val())
 
+// var drop = animation }// when a player picks a column piece drops and then alternatePlayer
 
-
+var isValidMove =
+ if (pickSpace.hasClass('filled')) {
+ if there is a space filled
+div:last-1 }
+ row (makes validMove)
 
 var endGame =
 
@@ -76,6 +81,7 @@ var entireBoard = [];
 var cols = 21;
 var rows = 21;
 
+<<<<<<< HEAD
 // Read entire board
 var readBoard =
     for (i = 0; i < cols; i++) {
@@ -84,3 +90,33 @@ var readBoard =
             entireBoard.push(myArray[i][j]);
         }
     }
+=======
+ // Read entire board
+ var readBoard =
+     for (i = 0; i < cols; i++) {
+         for (j = 0; j < rows; j++) {
+             myArray[i][j] = 0;
+             entireBoard.push(myArray[i][j]);
+         }
+     }
+
+     //  var selectedLevel;
+     // var diffucutlty = $('level').val();
+     // when player clicks makes a selection button diffucutlty changes
+     //   switch(diffucutlty) {
+     //     case pvp:
+     //         selectedLevel = $('#gamePiece').addClass('redPlayer');
+     //        alternatePlayer;
+     //         break;
+     //     case easy:
+     //        selectedLevel = $('column')Math.Random(div:column);
+     //         break;
+     //     case hard:
+     //         code block
+     //         break;
+     //     default:
+     //         console.log('selection made')
+     // }
+
+     // IDEA: maybe in input to allow to players to pick color
+>>>>>>> parent of b34c874... managed function for aleternate player and picking a space need to work on filling the space
