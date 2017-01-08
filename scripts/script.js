@@ -1,6 +1,6 @@
 $(document).ready(function() {
     console.log('ready!');
-})
+});
 
 var startGame =
     $(".start").click(function() {
@@ -10,29 +10,31 @@ var startGame =
     });
 
 var column = $('div.columns').click(function() {
-    readColumn($(this));
+    fillingSpace();
+    alternatePlayer();
 });
 
-var readColumn = function(column) {
- var rows = column[0].children;
- for (var i=0; i < rows.length; i++) {
-   if (!rows[i].classList.contains('yellowPlayer') || !rows[i].classList.contains('redPlayer')) {
-     console.log($(rows[i]));
-     break;
-   }
-  }
- }
+var fillingSpace = function() {
+    if ($('#gamePiece').hasClass('yellowPlayer')) {
+        .css('background-color', 'yellow');
+        console.log('yellow');
+    } else if ($('#gamePiece').hasClass('redPlayer')) {
+        {
+            .css('background-color', 'red');
+            console.log('red');
+        }
+    }
+};
 
-// var fillingSpace =
-//  switch ($(rows[i])) {
-//      case rows[i].classList.contains('yellowPlayer'):
-//          console.log('yellowPlayer');
-//          break;
-//      case rows[i].classList.contains('redPlayer'):
-//          console.log('redPlayer');
-//          break;
-//      default: console.log($(rows[i]));
-//  }
+var readColumn = function(column) {
+    var rows = column[0].children;
+    for (var i = 0; i < rows.length; i++) {
+        if (!rows[i].classList.contains('yellowPlayer') || !rows[i].classList.contains('redPlayer')) {
+            console.log($(rows[i]));
+            break;
+        }
+    }
+};
 
 // when player picks a column the lowest column has id filled with player then alternatePlayer
 var alternatePlayer = function() {
@@ -40,8 +42,6 @@ var alternatePlayer = function() {
     console.log('Player Switched!');
 };
 
-
-// validMove
 
 // var checkForWin
 // div.dataset.row (checks whats in the space)
