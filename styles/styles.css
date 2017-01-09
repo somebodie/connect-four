@@ -21,6 +21,15 @@ body {
     border: 15px solid #FFE300;
 }
 
+.redPlayer, .yellowPlayer {
+  animation: madeMove 
+}
+
+@keyframes madeMove {
+  0%   {top: 0px; background: red;}
+    100% {top: 200px; background: yellow;}
+}
+
 .board {
     margin: auto;
     border-radius: 50px;
